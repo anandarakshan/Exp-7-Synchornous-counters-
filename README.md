@@ -1,9 +1,13 @@
-# Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### NAME: Ananda Rakshan K V
+### REF.NO: 23001531
+# Exp-6-Synchornous counters  up counter and down counter 
+### AIM:
+To implement 4 bit up and down counters and validate  functionality.
+### HARDWARE REQUIRED:
+PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:   
+Quartus prime
 ### THEORY 
-
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
@@ -28,7 +32,7 @@ Starting with four J-K flip-flops connected in such a way to always be in the �
 
 The Q outputs of each flip-flop will serve as the respective binary bits of the final, four-bit count:
 
- 
+  
  
 
 Four-bit “Up” Counter
@@ -46,43 +50,71 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+#### UP Counter:
 
+module UP_counter(clk, A);
 
+input clk;
 
+output reg [2:0]A;
 
+always @(posedge clk)
 
+begin
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+	A[2]=(((A[0])&(A[1]))^A[2]);
+ 
+	A[1]=(A[0])^A[1];
+ 
+	A[0]=A[0]^1;
+ 
+end
 
+endmodule
 
+#### Down counter:
 
+module Down_counter(clk,A);
 
+input clk;
 
+output reg [2:0]A;
 
+always @(posedge clk)
 
+begin
 
+A[2]=(((~A[0])&(~A[1]))^A[2]);
 
-### TIMING DIGRAMS FOR COUNTER  
+A[1]=(~A[0])^A[1];
 
+A[0]=1^A[0];
 
+end
 
+endmodule
 
+### RTL LOGIC
+#### UP Counter:
+![UP_counter-RTL](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/49cf5858-4e14-4fac-8648-ff8d9e9c3225)
+
+#### Down Counter:
+![Down_counter-RTL](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/4e65060f-7265-40c0-8d9e-4c2caf9191cc)
+
+### TIMING DIGRAMS
+#### UP Counter:
+![UP_counter-timing_diagram](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/9b8d609f-edbf-4764-9d3f-4d6dcb38febd)
+
+#### Down Counter:
+![Down_counter-timing Diagram](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/c5c50286-ff33-49e4-acf6-84447d09e688)
 
 ### TRUTH TABLE 
+#### UP Counter:
+![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/73cb2e23-d461-4a50-8443-491bf6060a19)
 
-
-
-
-
+#### Down Counter:
+![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/d51f9e8d-5437-4d7b-b69d-f10cc237061c)
 
 ### RESULTS 
