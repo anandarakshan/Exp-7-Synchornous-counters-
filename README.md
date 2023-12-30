@@ -1,4 +1,4 @@
-### NAME: Prajin S
+### NAME: Ananada 
 ### REF.NO: 23012918
 # Exp-6-Synchornous counters  up counter and down counter 
 ### AIM:
