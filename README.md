@@ -1,5 +1,5 @@
-### NAME: Ananada 
-### REF.NO: 23012918
+### NAME: Ananda Rakshan K V
+### REF.NO: 212223230014
 # Exp-6-Synchornous counters  up counter and down counter 
 ### AIM:
 To implement 4 bit up and down counters and validate  functionality.
