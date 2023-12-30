@@ -110,6 +110,14 @@ end
 
 endmodule
 
+### TRUTH TABLE 
+#### UP Counter:
+![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/1c50d6bc-b90d-4cfa-99b9-8d54411ebfa7)
+
+
+#### Down Counter:
+![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/533606ac-1ac3-4e76-92ea-eb0480d78784)
+
 ### RTL LOGIC
 #### UP Counter:
 ![UP_counter-RTL](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/49cf5858-4e14-4fac-8648-ff8d9e9c3225)
@@ -123,15 +131,6 @@ endmodule
 
 #### Down Counter:
 ![Down_counter-timing Diagram](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/c5c50286-ff33-49e4-acf6-84447d09e688)
-
-### TRUTH TABLE 
-#### UP Counter:
-![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/1c50d6bc-b90d-4cfa-99b9-8d54411ebfa7)
-
-
-#### Down Counter:
-![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/533606ac-1ac3-4e76-92ea-eb0480d78784)
-
 
 ### RESULTS 
 Thus, the flipflops are implemented using verilog.
