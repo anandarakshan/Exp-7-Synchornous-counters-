@@ -112,10 +112,10 @@ endmodule
 
 ### TRUTH TABLE 
 #### UP Counter:
-![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/41788a56-5400-4f58-bdc7-cfdeb97b1924)
+![UP_counter](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/55927576-6c7a-43a7-b3a1-c53463357bc5)
 
 #### Down Counter:
-![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/d42ac6a6-70ff-490f-8295-2430a6b52232)
+![Down_counter](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/90256fc1-94e4-4fe3-9732-77db579fee3c)
 
 ### RTL LOGIC
 #### UP Counter:
