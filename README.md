@@ -1,5 +1,5 @@
-### NAME: M.Lokesh
-### REF.NO: 23001615
+### NAME: M Ashwin Akash
+### REF.NO: 23009906
 # Exp-6-Synchornous counters  up counter and down counter 
 ### AIM:
 To implement 4 bit up and down counters and validate  functionality.
