@@ -1,5 +1,5 @@
 ### NAME: Ananda Rakshan K V
-### REF.NO: 23001531
+### REF.NO: 212223230014
 # Exp-6-Synchornous counters  up counter and down counter 
 ### AIM:
 To implement 4 bit up and down counters and validate  functionality.
@@ -126,10 +126,12 @@ endmodule
 
 ### TRUTH TABLE 
 #### UP Counter:
-![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/73cb2e23-d461-4a50-8443-491bf6060a19)
+![UP_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/1c50d6bc-b90d-4cfa-99b9-8d54411ebfa7)
+
 
 #### Down Counter:
-![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/d51f9e8d-5437-4d7b-b69d-f10cc237061c)
+![Down_counter-Truth table](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/533606ac-1ac3-4e76-92ea-eb0480d78784)
+
 
 ### RESULTS 
 Thus, the flipflops are implemented using verilog.
