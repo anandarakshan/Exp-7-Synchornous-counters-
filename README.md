@@ -2,14 +2,14 @@
 ### REF.NO: 212223230014
 # Exp-6-Synchornous counters  up counter and down counter 
 ### AIM:
-To implement 4 bit up and down counters and validate  functionality.
+To implement 3 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:
 PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   
 Quartus prime
 ### THEORY 
 ## UP COUNTER 
-The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
+The counter is a digital sequential circuit and here it is a 3 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
 The counter (“count“) value will be evaluated at every positive (rising) edge of the clock (“clk“) cycle.
 The Counter will be set to Zero when “reset” input is at logic high.
@@ -21,7 +21,7 @@ The main problem facing us is to determine how to connect these flip-flops toget
 Examine the following binary count sequence, paying attention to patterns preceding the “toggling” of a bit between 0 and 1:
 Binary count sequence, paying attention to patterns preceding the “toggling” of a bit between 0 and 1.
 
-Note that each bit in this four-bit sequence toggles when the bit before it (the bit having a lesser significance, or place-weight), toggles in a particular direction: from 1 to 0.
+Note that each bit in this three-bit sequence toggles when the bit before it (the bit having a lesser significance, or place-weight), toggles in a particular direction: from 1 to 0.
 
 
 
@@ -35,8 +35,9 @@ The Q outputs of each flip-flop will serve as the respective binary bits of the 
   
  
 
-Four-bit “Up” Counter
-![image](https://user-images.githubusercontent.com/36288975/169644758-b2f4339d-9532-40c5-af40-8f4f8c942e2c.png)
+Three-bit “Up” Counter
+![up](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/35c5ac94-31d2-47c9-932c-aae80c987a67)
+
 
 
 
@@ -44,11 +45,13 @@ Four-bit “Up” Counter
 
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
 
-This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 4-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
-![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
+This type of counter is normally referred to as a Down Counter, (CTD). In a binary or BCD down counter, the count decreases by one for each external clock pulse from some preset value. Special dual purpose IC’s such as the TTL 74LS193 or CMOS CD4510 are 3-bit binary Up or Down counters which have an additional input pin to select either the up or down count mode.
 
 
-4-bit Count Down Counter
+3-bit Count Down Counter
+![down](https://github.com/anandarakshan/Exp-7-Synchornous-counters-/assets/139217934/5c36e07a-cc9f-4abb-80f6-1440824b7a7e)
+
+
 ### Procedure
 
 1.Create a new project in Quartus II software.
